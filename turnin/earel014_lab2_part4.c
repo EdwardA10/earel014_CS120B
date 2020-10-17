@@ -1,7 +1,7 @@
 /*	Author: Edward Arellano
  *  Partner(s) Name: None
  *	Lab Section: 023
- *	Assignment: Lab #2  Exercise #2
+ *	Assignment: Lab #2  Exercise #4
  *	Exercise Description: [optional - include for your own benefit]
  *
  *	I acknowledge all content contained herein, excluding template or example
