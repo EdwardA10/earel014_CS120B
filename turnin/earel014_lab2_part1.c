@@ -23,7 +23,7 @@ int main(void) {
 	while (1) {
 		tmpA = PINA & 0x01;
 
-		if(tmpA == 0x01) {
+		if(tmpA == 0x01 && PINA != 0x03) {
 			tmpB = (tmpB & 0xFC) | 0x01;
 		}
 		else {

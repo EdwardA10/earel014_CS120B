@@ -136,6 +136,12 @@ continue 5
 expectPORTC 0x80
 checkResult
 
+test "PINA: 0x80 => PORTC: 0x04"
+setPINA 0x80
+continue 5
+expectPORTC 0x04
+checkResult
+
 # This test assumes that if there is any junk value in pins 7-4 of A, then the lot is full.
 test "PINA: 0x1F => PORTC: 0x80"
 setPINA 0x1F

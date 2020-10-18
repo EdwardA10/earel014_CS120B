@@ -31,7 +31,7 @@ int main(void) {
 		tmpB = PINB;
 		tmpC = PINC;
 		weight = (tmpA + tmpB + tmpC);
-		difference = (tmpA - tmpC);
+		difference = (tmpC - tmpA);
 
 		if(weight > 0x8C){
 			tmpD = 0x01;

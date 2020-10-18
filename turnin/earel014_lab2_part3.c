@@ -38,6 +38,9 @@ int main(void) {
 		else if(tmpA == 0x0F) {
 			cntavail = 0x80;
 		}
+		else if(tmpA == 0x80) {
+			cntavail = 0x04;
+		}
 		else {
 			cntavail = 0x80; //if pins 7-4 of A are anything other than 0, assume 0x80.
 		}
